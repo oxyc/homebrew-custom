@@ -1,6 +1,6 @@
 cask :v1 => 'popcorn-time' do
   version '0.3.7-2'
-  sha256 'a35b5402c84b69bf54c86c278c62d93d933506966c8c819e56f97877e4d2cfb7'
+  sha256 ' 8fb9c3be5ec5600084745885f0f6b2f948fa1828983fe8cb7186f7144447bb8f'
 
   url "https://get.popcorntime.io/build/Popcorn-Time-#{version.gsub('-', '.')}-Mac.dmg", :user_agent => :fake
   appcast 'https://popcorntime.io/update.json',
